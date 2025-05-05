@@ -5,7 +5,7 @@ const repeatString = function(string, num) {
         return '';
     } else {
         let newString = '';
-        for (repeats = 1; repeats <= num; repeats++) {
+        for (let repeats = 1; repeats <= num; repeats++) {
             newString += string;
         }
         return newString;
